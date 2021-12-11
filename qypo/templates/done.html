@@ -10,7 +10,7 @@
 <body>
   <script type="text/javascript">
     function myFunction() {
-      var copyText = document.getElementById("displayed");
+      var copyText = document.getElementById("textarea2");
       copyText.select(); 
       copyText.setSelectionRange(0, 99999);
       navigator.clipboard.writeText(copyText.value);
